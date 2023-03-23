@@ -1,0 +1,12 @@
+<DOCTYPE html>
+
+<title> Hello article controller </title>
+
+{% block body %}
+
+{% for article in articles %}
+    <li>{{ article.title }}</li>
+{% endfor %}
+
+<p>Rien trouvé </p>
+{% endblock %}
